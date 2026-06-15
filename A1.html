@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Primary SEO -->
+<meta name="description" content="A beginner-friendly guide to personal finance for college students. Learn budgeting, saving, emergency funds, student loans, and credit cards in simple Gen Z language."/>
+<meta name="keywords" content="personal finance for college students, budgeting for students, how to save money in college, student loans guide, credit cards for beginners, money tips college"/>
+<meta name="author" content="StudentWallet"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://studentwallet.com/articles/personal-finance-college-students"/>
+
+<!-- Open Graph (WhatsApp, Facebook, LinkedIn previews) -->
+<meta property="og:title" content="Broke in College? Let's Actually Fix That — StudentWallet"/>
+<meta property="og:description" content="No finance degree needed. A real, Gen Z friendly guide to budgeting, saving, and managing money as a college student."/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"/>
+<meta property="og:url" content="https://studentwallet.com/articles/personal-finance-college-students"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="StudentWallet"/>
+
+<!-- Twitter/X Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Broke in College? Let's Actually Fix That — StudentWallet"/>
+<meta name="twitter:description" content="A beginner friendly personal finance guide written for college students. Budgeting, saving, loans, and more."/>
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80"/>
+<meta name="twitter:site" content="@studentwallet"/>
+
+<!-- Article Schema (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Broke in College? Let's Actually Fix That",
+  "description": "A beginner-friendly personal finance guide for college students covering budgeting, saving, emergency funds, student loans, and credit cards.",
+  "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+  "author": {
+    "@type": "Organization",
+    "name": "StudentWallet",
+    "url": "https://studentwallet.qzz.io"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "StudentWallet",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://studentwallet.com/logo.png"
+    }
+  },
+  "datePublished": "2025-06-15",
+  "dateModified": "2025-06-15",
+  "mainEntityOfPage": "https://studentwallet.com/articles/personal-finance-college-students",
+  "keywords": "personal finance, college students, budgeting, saving money, student loans"
+}
+</script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Broke in College? Let's Fix That 💸</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --mint:       #D6F5E3;
+      --mint-dark:  #3DBD78;
+      --sky:        #E0F0FF;
+      --sky-dark:   #4AA8E8;
+      --peach:      #FDE8D8;
+      --peach-dark: #F07A3A;
+      --lavender:   #EDE8FB;
+      --lav-dark:   #8B6FE8;
+      --yellow:     #FFF6D6;
+      --yel-dark:   #E8B830;
+      --ink:        #1A1A2E;
+      --ink-mid:    #3D3D5C;
+      --ink-light:  #6B6B8A;
+      --white:      #FFFFFF;
+      --bg:         #F7F9FC;
+      --card-bg:    #FFFFFF;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    /* ── PROGRESS BAR ── */
+    #progress-bar {
+      position: fixed; top: 0; left: 0; height: 3px;
+      background: linear-gradient(90deg, var(--mint-dark), var(--sky-dark), var(--lav-dark));
+      width: 0%; z-index: 999;
+      transition: width 0.1s linear;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(247,249,252,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid #E8ECF2;
+      padding: 14px 24px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo { font-weight: 800; font-size: 1rem; color: var(--ink); letter-spacing: -0.0px; }
+    .nav-logo span { color: var(--mint-dark); }
+    .nav-links { display: flex; gap: 6px; }
+    .nav-links a {
+      text-decoration: none; font-size: 0.78rem; font-weight: 600;
+      color: var(--ink-light); padding: 6px 12px; border-radius: 20px;
+      transition: background 0.2s, color 0.2s;
+    }
+    .nav-links a:hover { background: var(--mint); color: var(--mint-dark); }
+
+    /* ── HERO ── */
+    .hero {
+      max-width: 860px; margin: 0 auto;
+      padding: 72px 24px 48px;
+      text-align: center;
+    }
+    .hero-badge {
+      display: inline-block;
+      background: var(--mint); color: var(--mint-dark);
+      font-size: 0.75rem; font-weight: 700; letter-spacing: 0.08em;
+      text-transform: uppercase; padding: 6px 16px; border-radius: 20px;
+      margin-bottom: 24px;
+    }
+    .hero h1 {
+      font-family: 'Lora', serif;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 600; line-height: 1.2;
+      color: var(--ink); letter-spacing: -0.5px;
+      margin-bottom: 20px;
+    }
+    .hero h1 em { font-style: italic; color: var(--mint-dark); }
+    .hero-sub {
+      font-size: 1.05rem; color: var(--ink-light);
+      max-width: 560px; margin: 0 auto 36px;
+    }
+    .hero-meta {
+      display: flex; align-items: center; justify-content: center;
+      gap: 20px; font-size: 0.82rem; color: var(--ink-light);
+    }
+    .hero-meta .dot { width: 4px; height: 4px; background: var(--ink-light); border-radius: 50%; }
+    .hero-img-wrap {
+      margin-top: 44px; border-radius: 20px; overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.10);
+      position: relative;
+    }
+    .hero-img-wrap img { width: 100%; height: 400px; object-fit: cover; display: block; }
+    .hero-img-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(0deg, rgba(26,26,46,0.7) 0%, transparent 100%);
+      color: white; font-size: 0.8rem; padding: 24px 20px 16px;
+      font-weight: 500;
+    }
+
+    /* ── LAYOUT ── */
+    .article-wrap { max-width: 860px; margin: 0 auto; padding: 0 24px 80px; }
+
+    /* ── INTRO CALLOUT ── */
+    .intro-callout {
+      background: var(--yellow); border-left: 4px solid var(--yel-dark);
+      border-radius: 0 12px 12px 0;
+      padding: 20px 24px; margin: 48px 0 40px;
+      font-size: 1.05rem; font-style: italic; color: var(--ink-mid);
+    }
+
+    /* ── SECTION ── */
+    .section { margin-bottom: 64px; }
+
+    .section-label {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; margin-bottom: 14px;
+      padding: 5px 14px; border-radius: 20px;
+    }
+    .label-mint  { background: var(--mint);     color: var(--mint-dark); }
+    .label-sky   { background: var(--sky);      color: var(--sky-dark); }
+    .label-peach { background: var(--peach);    color: var(--peach-dark); }
+    .label-lav   { background: var(--lavender); color: var(--lav-dark); }
+    .label-yel   { background: var(--yellow);   color: var(--yel-dark); }
+    .label-ink   { background: #EEEEF5;         color: var(--ink-mid); }
+
+    .section h2 {
+      font-family: 'Lora', serif;
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 600; color: var(--ink);
+      letter-spacing: -0.3px; margin-bottom: 18px; line-height: 1.3;
+    }
+    .section p { color: var(--ink-mid); margin-bottom: 18px; }
+    .section p:last-child { margin-bottom: 0; }
+
+    /* ── FULL-WIDTH IMAGE ── */
+    .section-img {
+      width: 100%; border-radius: 16px; overflow: hidden;
+      margin: 28px 0; box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+    }
+    .section-img img { width: 100%; height: 300px; object-fit: cover; display: block; }
+
+    /* ── SPLIT IMAGE + TEXT ── */
+    .split {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 32px; align-items: center; margin: 28px 0;
+    }
+    .split.reverse { direction: rtl; }
+    .split.reverse > * { direction: ltr; }
+    .split-img { border-radius: 16px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
+    .split-img img { width: 100%; height: 280px; object-fit: cover; display: block; }
+
+    /* ── TIP CARDS ── */
+    .tip-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; margin: 28px 0; }
+    .tip-card {
+      border-radius: 14px; padding: 20px;
+      font-size: 0.88rem; color: var(--ink-mid);
+    }
+    .tip-card .tip-icon { font-size: 1.6rem; margin-bottom: 10px; }
+    .tip-card strong { display: block; font-size: 0.95rem; color: var(--ink); margin-bottom: 6px; font-weight: 700; }
+    .tc-mint  { background: var(--mint); }
+    .tc-sky   { background: var(--sky); }
+    .tc-peach { background: var(--peach); }
+    .tc-lav   { background: var(--lavender); }
+    .tc-yel   { background: var(--yellow); }
+
+    /* ── HIGHLIGHT BOX ── */
+    .highlight-box {
+      border-radius: 16px; padding: 28px 32px; margin: 28px 0;
+    }
+    .highlight-box h3 {
+      font-family: 'Lora', serif; font-size: 1.2rem;
+      font-weight: 600; margin-bottom: 14px; color: var(--ink);
+    }
+    .highlight-box ul { padding-left: 20px; }
+    .highlight-box li { margin-bottom: 10px; color: var(--ink-mid); }
+    .hb-mint  { background: var(--mint); }
+    .hb-sky   { background: var(--sky); }
+    .hb-peach { background: var(--peach); }
+    .hb-lav   { background: var(--lavender); }
+
+    /* ── RULE CARD ── */
+    .rule-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; margin: 24px 0; }
+    .rule-card {
+      border-radius: 14px; padding: 22px 18px; text-align: center;
+    }
+    .rule-pct { font-size: 2rem; font-weight: 800; color: var(--ink); line-height: 1; }
+    .rule-label { font-size: 0.78rem; font-weight: 600; color: var(--ink-mid); margin-top: 6px; }
+
+    /* ── QUOTE ── */
+    .pull-quote {
+      border-left: 3px solid var(--lav-dark);
+      padding: 8px 24px; margin: 32px 0;
+      font-family: 'Lora', serif; font-size: 1.15rem;
+      font-style: italic; color: var(--ink-mid);
+    }
+
+    /* ── FINAL CTA ── */
+    .final-cta {
+      background: linear-gradient(135deg, #1A1A2E 0%, #2D2B55 100%);
+      border-radius: 20px; padding: 48px 40px; text-align: center; margin-top: 48px;
+    }
+    .final-cta h2 {
+      font-family: 'Lora', serif; font-size: 1.9rem;
+      color: white; margin-bottom: 14px; font-style: italic;
+    }
+    .final-cta p { color: rgba(255,255,255,0.7); margin-bottom: 28px; font-size: 1rem; }
+    .cta-pills { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .cta-pill {
+      padding: 10px 20px; border-radius: 24px; font-size: 0.85rem;
+      font-weight: 700; border: none; cursor: pointer;
+    }
+    .pill-mint  { background: var(--mint);     color: var(--mint-dark); }
+    .pill-sky   { background: var(--sky);      color: var(--sky-dark); }
+    .pill-peach { background: var(--peach);    color: var(--peach-dark); }
+    .pill-lav   { background: var(--lavender); color: var(--lav-dark); }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center; padding: 32px 24px;
+      font-size: 0.8rem; color: var(--ink-light);
+      border-top: 1px solid #E8ECF2;
+    }
+
+    /* ── SCROLL REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.55s ease, transform 0.55s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .split { grid-template-columns: 1fr; }
+      .tip-cards { grid-template-columns: 1fr 1fr; }
+      .rule-grid { grid-template-columns: 1fr 1fr 1fr; }
+      .final-cta { padding: 32px 20px; }
+      .hero-img-wrap img { height: 240px; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">studentwallet </div><span></span> ✦ student edition</div>
+  <div class="nav-links">
+    <a href="#track">Track</a>
+    <a href="#budget">Budget</a>
+    <a href="#save">Save</a>
+    <a href="#loans">Loans</a>
+    <a href="#invest">Invest</a>
+    <a href="#mindset">Mindset</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="hero-badge">💸 Personal Finance for College Students</div>
+  <h1>Broke in College?<br/><em>Let's Actually Fix That.</em></h1>
+  <p class="hero-sub">No finance degree needed. No boring lectures. Just real talk about money from someone who gets it — because we've all been there.</p>
+  <div class="hero-meta">
+    <span>10 min read</span>
+    <span class="dot"></span>
+    <span>2,000+ words</span>
+    <span class="dot"></span>
+    <span>Beginner friendly</span>
+  </div>
+  <div class="hero-img-wrap reveal">
+    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80" alt="Student managing finances on laptop"/>
+    <div class="hero-img-caption">📍 You, two weeks from now, actually understanding your money.</div>
+  </div>
+</header>
+
+<!-- ARTICLE BODY -->
+<main class="article-wrap">
+
+  <div class="intro-callout reveal">
+    "Nobody actually teaches you how to handle money in school. They'll make you memorize the Pythagorean theorem for years, but the moment you're on your own with a bank account and rent due? Crickets. You're just supposed to <em>figure it out.</em>"
+  </div>
+
+  <div class="section reveal">
+    <p>And most of us don't. We swipe the card, check the balance three days later, and enter what I call the <strong>"oh no" phase.</strong> Sound familiar? Yeah. Same.</p>
+    <p>But here's the thing — you don't need to be a math genius or have a rich family to be good with money. You just need a few basics, some habits built early, and the willingness to stop pretending your account balance is someone else's problem. It's not. It's yours. And the sooner you own that, the better your life gets.</p>
+    <p>So grab your coffee (or your overpriced matcha — no judgment), and let's actually talk about personal finance in a way that doesn't make you want to fall asleep.</p>
+  </div>
+
+  <!-- SECTION 1: WHY CARE -->
+  <div class="section reveal" id="track">
+    <div class="section-label label-mint">🌱 Why It Matters Now</div>
+    <h2>Why Should You Even Care Right Now?</h2>
+    <p>You're in college. You're busy. You've got classes, assignments, a social life to maintain, and maybe a part-time job that's slowly draining your soul. Why is money management on the priority list?</p>
+    <p>Because <strong>the habits you build right now follow you for years.</strong> Seriously. The person who learns to budget at 20 is not the same person drowning in credit card debt at 30. And you genuinely do not want to be that person — trust.</p>
+
+    <div class="tip-cards">
+      <div class="tip-card tc-mint">
+        <div class="tip-icon">⏰</div>
+        <strong>Time is your asset</strong>
+        Starting early means compound interest works FOR you, not against you.
+      </div>
+      <div class="tip-card tc-sky">
+        <div class="tip-icon">🧠</div>
+        <strong>Habits stick early</strong>
+        Financial habits formed in college tend to last a lifetime.
+      </div>
+      <div class="tip-card tc-peach">
+        <div class="tip-icon">😮‍💨</div>
+        <strong>Less stress later</strong>
+        A small cushion now means fewer crisis moments after graduation.
+      </div>
+    </div>
+
+    <p>Also, starting early with even small financial moves has a compounding effect — that's a finance word that basically means: the sooner you start, the harder your money works for you. You've got time on your side. That's actually your biggest financial asset right now — more than any part-time income or birthday money from grandma.</p>
+  </div>
+
+  <!-- SECTION 2: TRACKING -->
+  <div class="section reveal">
+    <div class="section-label label-sky">🔍 Step 1</div>
+    <h2>Know Where Your Money Is Going (Be Honest)</h2>
+
+    <div class="split">
+      <div>
+        <p>Brutal honesty moment. Most people have absolutely no idea where their money goes. You start the month with $500, and by week two you're like "where did it all go??" — and the answer is usually: food delivery, random Amazon purchases, subscriptions you forgot you had, and vibes.</p>
+        <p>The first step to fixing your finances is just <strong>tracking.</strong> Not judging, not restricting — just watching.</p>
+        <p>For one month, write down every single thing you spend money on. Coffee runs, Uber rides, that app you bought and opened once — all of it. You'll be shocked. Most people are.</p>
+      </div>
+      <div class="split-img">
+        <img src="https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?w=800&q=80" alt="Person tracking expenses on phone"/>
+      </div>
+    </div>
+
+    <div class="highlight-box hb-sky">
+      <h3>📱 Apps that actually help</h3>
+      <ul>
+        <li><strong>Mint</strong> — Links your bank, auto-categorizes spending, totally free</li>
+        <li><strong>YNAB (You Need A Budget)</strong> — Best for intentional budgeters, has a student free trial</li>
+        <li><strong>Notes app</strong> — Seriously. A simple daily log works if that's what you'll actually use</li>
+        <li><strong>Your bank's app</strong> — Most banks now have built-in spending insights. Check yours first.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 3: BUDGET -->
+  <div class="section reveal" id="budget">
+    <div class="section-label label-peach">💡 Step 2</div>
+    <h2>Build a Budget That Doesn't Make You Miserable</h2>
+    <p>The word "budget" sounds so restrictive and boring, but hear me out — a budget isn't about saying no to everything fun. It's about <strong>saying yes on purpose.</strong></p>
+    <p>There's a super simple framework called the <strong>50/30/20 rule</strong> that works really well for college students:</p>
+
+    <div class="rule-grid">
+      <div class="rule-card tc-peach">
+        <div class="rule-pct">50%</div>
+        <div class="rule-label">Needs<br/>Rent · Food · Transport</div>
+      </div>
+      <div class="rule-card tc-sky">
+        <div class="rule-pct">30%</div>
+        <div class="rule-label">Wants<br/>Fun · Eating out · Streaming</div>
+      </div>
+      <div class="rule-card tc-mint">
+        <div class="rule-pct">20%</div>
+        <div class="rule-label">Savings<br/>Emergency fund · Debt</div>
+      </div>
+    </div>
+
+    <p>Now look — if you're making $800 a month part-time, those percentages might need adjusting. The point isn't the exact numbers. The point is: <strong>give every dollar a job before you spend it.</strong> When you decide in advance what your money is for, you stop waking up at 3am wondering why your account is at $12.</p>
+
+    <div class="section-img">
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80" alt="Budget planning with notebook and coffee"/>
+    </div>
+
+    <div class="pull-quote">
+      "A budget isn't a cage. It's a GPS. It doesn't stop you from going places — it just helps you get there without running out of gas."
+    </div>
+  </div>
+
+  <!-- SECTION 4: EMERGENCY FUND -->
+  <div class="section reveal" id="save">
+    <div class="section-label label-mint">🛡️ Step 3</div>
+    <h2>Emergency Fund — Yes, Even You Need One</h2>
+    <p>I know what you're thinking. "I'm a college student, I barely have money for groceries, how am I supposed to have an emergency fund?" Fair. But here's the thing — <strong>emergencies don't care about your situation.</strong></p>
+    <p>Your laptop dies a week before finals. Your car needs a repair. You get sick and miss shifts. Life happens, and when it does, having even a small cushion changes everything.</p>
+
+    <div class="tip-cards">
+      <div class="tip-card tc-mint">
+        <div class="tip-icon">🎯</div>
+        <strong>Start goal: $500</strong>
+        Even $500 is the difference between a minor inconvenience and a full-blown crisis.
+      </div>
+      <div class="tip-card tc-sky">
+        <div class="tip-icon">🏦</div>
+        <strong>Use a high-yield account</strong>
+        Ally Bank, Marcus, or SoFi offer 4-5% interest vs. 0.01% at big banks.
+      </div>
+      <div class="tip-card tc-peach">
+        <div class="tip-icon">🤖</div>
+        <strong>Make it automatic</strong>
+        Auto-transfer $20–$50 on payday. You won't miss it. Promise.
+      </div>
+    </div>
+
+    <p>Put it in a separate savings account — ideally a high-yield one. Name the account "DO NOT TOUCH" if you have to. Make it boring on purpose so you don't think about it. The goal is to make saving feel invisible.</p>
+  </div>
+
+  <!-- SECTION 5: LOANS -->
+  <div class="section reveal" id="loans">
+    <div class="section-label label-lav">📄 Step 4</div>
+    <h2>Student Loans — Don't Just Ignore Them</h2>
+
+    <div class="split reverse">
+      <div>
+        <p>A lot of college students take out loans, sign the papers, and then put that information in a mental drawer labeled "Future Me's Problem." Honestly, so understandable. The numbers are scary and it all feels far away.</p>
+        <p>But ignoring it doesn't make it better. It makes it <em>worse</em>, because interest is silently stacking the whole time.</p>
+      </div>
+      <div class="split-img">
+        <img src="https://images.unsplash.com/photo-1434626881859-194d67b2b86f?w=800&q=80" alt="Student reviewing loan documents"/>
+      </div>
+    </div>
+
+    <div class="highlight-box hb-lav">
+      <h3>📌 What to do right now, even as a student</h3>
+      <ul>
+        <li><strong>Know what you owe.</strong> Log into studentaid.gov and actually look at your balance and interest rates. Just knowing the number matters.</li>
+        <li><strong>Subsidized vs. unsubsidized.</strong> Subsidized loans don't accrue interest while you're in school. Unsubsidized ones do. This matters at graduation.</li>
+        <li><strong>Pay interest while in school if you can.</strong> Even small payments on unsubsidized loans can save you hundreds or thousands later.</li>
+        <li><strong>Look into income-driven repayment plans.</strong> Know these exist before you're panicking on graduation day.</li>
+      </ul>
+    </div>
+
+    <p>Loans don't have to ruin your financial life — but only if you understand them and have a plan. Get informed now, not later.</p>
+  </div>
+
+  <!-- SECTION 6: CREDIT CARDS -->
+  <div class="section reveal">
+    <div class="section-label label-peach">💳 Step 5</div>
+    <h2>Credit Cards — The Double-Edged Sword</h2>
+    <p>Credit cards are either one of the best or worst financial tools depending on how you use them. In college, it's really easy for them to become a nightmare — but used right, they can actually build your financial future.</p>
+
+    <div class="section-img">
+      <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80" alt="Credit cards and financial planning"/>
+    </div>
+
+    <div class="tip-cards">
+      <div class="tip-card tc-mint">
+        <div class="tip-icon">✅</div>
+        <strong>The golden rule</strong>
+        Only charge what you can pay off IN FULL that same month. No exceptions.
+      </div>
+      <div class="tip-card tc-sky">
+        <div class="tip-icon">📈</div>
+        <strong>Build credit early</strong>
+        A good credit score saves you thousands in interest on future loans and rent deposits.
+      </div>
+      <div class="tip-card tc-peach">
+        <div class="tip-icon">🎁</div>
+        <strong>Student cards have perks</strong>
+        Discover it Student and Capital One Quicksilver offer cashback with no annual fee.
+      </div>
+    </div>
+
+    <div class="pull-quote">
+      "A credit card used right is free money and a growing credit score. Used wrong, it's a debt spiral with 24% interest. Respect it."
+    </div>
+
+    <div class="highlight-box hb-peach">
+      <h3>🚨 Things to never do with a credit card</h3>
+      <ul>
+        <li>Only pay the minimum balance — interest will eat you alive</li>
+        <li>Use it for everyday spending when your bank account is already empty</li>
+        <li>Ignore the bill and hope it sorts itself out (it won't)</li>
+        <li>Max it out "just this once" for a concert or trip</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SECTION 7: INVESTING -->
+  <div class="section reveal" id="invest">
+    <div class="section-label label-sky">📈 Step 6</div>
+    <h2>Investing — Yes, You Can Start With $20</h2>
+    <p>Investing sounds like something rich people do. But it's actually something anyone can start — including broke college students with $20 and a Robinhood account.</p>
+    <p>The key concept: <strong>compound interest.</strong> Here's the magic: money you invest earns returns. Those returns earn returns. Over decades, this snowballs into something wild. Einstein allegedly called it the eighth wonder of the world. We don't need to fact-check that to agree it's kind of incredible.</p>
+
+    <div class="highlight-box hb-sky">
+      <h3>🧮 Quick example</h3>
+      <ul>
+        <li>You invest <strong>$50/month starting at age 20</strong></li>
+        <li>Average return of 7% per year (historical stock market average)</li>
+        <li>By age 60: you've put in $24,000... but you have <strong>~$131,000</strong></li>
+        <li>If you start at 30 instead? You'd end up with about <strong>$60,000</strong></li>
+        <li>Same amount invested. Wildly different outcome. That's the power of starting early.</li>
+      </ul>
+    </div>
+
+    <div class="tip-cards">
+      <div class="tip-card tc-lav">
+        <div class="tip-icon">🏦</div>
+        <strong>Open a Roth IRA</strong>
+        Tax-free growth. One of the best accounts for young people earning under the income limit.
+      </div>
+      <div class="tip-card tc-sky">
+        <div class="tip-icon">📦</div>
+        <strong>Index funds first</strong>
+        VTI or VOO — boring, diversified, and consistently beat most "expert" picks.
+      </div>
+      <div class="tip-card tc-mint">
+        <div class="tip-icon">🤖</div>
+        <strong>Try a robo-advisor</strong>
+        Betterment or Acorns handles everything automatically. Set it and forget it.
+      </div>
+    </div>
+
+    <p>You don't need to pick stocks or watch charts. You just need to start. Even $10 a month is infinitely better than $0. The amount matters way less than the habit.</p>
+  </div>
+
+  <!-- SECTION 8: MONEY MINDSET -->
+  <div class="section reveal" id="mindset">
+    <div class="section-label label-ink">🧠 The Real Talk</div>
+    <h2>Money Mindset — The Part Nobody Talks About</h2>
+
+    <div class="split">
+      <div>
+        <p>Here's the thing nobody in a finance article wants to say: <strong>your relationship with money is emotional.</strong> It's tied to how you grew up, what your parents modeled, how you feel about yourself, and what you think you deserve.</p>
+        <p>Some people overspend to feel good in the moment. Some underspend and feel guilty buying anything. Some avoid their bank app entirely because looking feels too scary. All of that is valid — and all of it needs to be worked through.</p>
+      </div>
+      <div class="split-img">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80" alt="Students studying together in library"/>
+      </div>
+    </div>
+
+    <div class="tip-cards">
+      <div class="tip-card tc-lav">
+        <div class="tip-icon">🪞</div>
+        <strong>Audit your beliefs</strong>
+        Do you think rich people are greedy? That wanting money is selfish? Those beliefs might be holding you back.
+      </div>
+      <div class="tip-card tc-mint">
+        <div class="tip-icon">🤝</div>
+        <strong>Stop comparing</strong>
+        Social media is a highlight reel. That friend "living their best life" might be $8,000 in debt.
+      </div>
+      <div class="tip-card tc-peach">
+        <div class="tip-icon">🎉</div>
+        <strong>Celebrate small wins</strong>
+        Saved $100? That's huge. Built your emergency fund? You're already ahead of most adults.
+      </div>
+    </div>
+
+    <p>Financial literacy is a skill, not a personality trait. You're not "bad with money." You just haven't learned the skills yet. And you're learning them right now. That counts.</p>
+
+    <div class="pull-quote">
+      "The goal isn't to be rich. The goal is to have enough freedom to make choices on your own terms. That starts here."
+    </div>
+  </div>
+
+  <!-- FINAL SUMMARY -->
+  <div class="section reveal">
+    <div class="section-label label-mint">✅ Your Action Plan</div>
+    <h2>Okay, So What Do You Actually Do This Week?</h2>
+    <p>Here's the thing about information — it's only useful if it leads to action. So let's make this real. Pick ONE of these to do in the next 48 hours. Just one.</p>
+
+    <div class="highlight-box hb-mint">
+      <h3>🗓️ Your starter checklist</h3>
+      <ul>
+        <li>📊 Download a budgeting app and track spending for 7 days — no changes yet, just watch</li>
+        <li>🏦 Open a high-yield savings account and transfer even $25 as your emergency fund seed</li>
+        <li>📋 Log into studentaid.gov and write down your total loan balance and interest rates</li>
+        <li>💳 Set up autopay on your credit card for the full balance every month</li>
+        <li>📈 Open a Roth IRA with $0 and research your first index fund purchase</li>
+        <li>📝 Set up even a $20/month automatic savings transfer for the next 3 months</li>
+      </ul>
+    </div>
+
+    <p>You don't need to do all of this today. You just need to start. Because the version of you who handles money well doesn't appear out of nowhere at 30. They're built in moments exactly like this one — when you decide to care before you feel like you have to.</p>
+    <p>Future you? Already proud.</p>
+  </div>
+
+  <!-- CTA BOX -->
+  <div class="final-cta reveal">
+    <h2>You've got this. For real. 💚</h2>
+    <p>Share this with a friend who needs it — your whole friend group shouldn't be broke. That's community.</p>
+    <div class="cta-pills">
+      <button class="cta-pill pill-mint">📊 Start Budgeting</button>
+      <button class="cta-pill pill-sky">🏦 Open Savings Account</button>
+      <button class="cta-pill pill-peach">📈 Start Investing</button>
+      <button class="cta-pill pill-lav">📋 Check My Loans</button>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>✦ Written for every college student who's ever checked their balance and immediately closed the app. You're not alone. 💸</p>
+  <p style="margin-top:8px;">moneywise student edition &nbsp;·&nbsp; 2025</p>
+</footer>
+
+<script>
+  // Progress bar
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.body.scrollHeight - window.innerHeight;
+    const pct = (scrollTop / docHeight) * 100;
+    document.getElementById('progress-bar').style.width = pct + '%';
+  });
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.1 });
+  reveals.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
